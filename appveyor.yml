@@ -1,0 +1,12 @@
+version: 1.0.0
+
+branches:
+  only:
+    - main
+
+max_jobs: 69
+
+image: Visual Studio 2015
+
+install:
+  - ps: wget https://ci.appveyor.com/activate-account/
